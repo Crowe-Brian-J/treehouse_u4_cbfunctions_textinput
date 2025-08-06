@@ -14,4 +14,11 @@ nameInput.addEventListener('blur', (e) => {
   e.target.className = ''
 })
 
-//
+//now do messageTextArea on my own
+messageTextArea.addEventListener('focus', (e) => {
+  e.target.className = 'highlight'
+})
+
+messageTextArea.addEventListener('blur', (e) => {
+  e.target.className = ''
+})
